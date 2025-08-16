@@ -1,0 +1,313 @@
+:root {
+  --bg: #0f172a;
+  --card: #111827;
+  --ink: #e5e7eb;
+  --muted: #9ca3af;
+  --brand: #16a34a;
+  --danger: #ff0000;
+  --light: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu;
+  color: var(--ink);
+  background: var(--bg);
+}
+a {
+  color: var(--ink);
+  text-decoration: none;
+}
+input,
+button,
+select {
+  font: inherit;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #374151;
+  background: #0b1220;
+  color: var(--ink);
+}
+button {
+  cursor: pointer;
+}
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+  padding: 16px;
+  margin-block: 30px 0;
+}
+.row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.col {
+  flex: 1 1 320px;
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid #1f2937;
+  background: #0b1220;
+}
+.brand {
+  font-weight: 700;
+}
+.error {
+  color: var(--danger);
+  font-size: 0.9rem;
+  display: flex;
+  width: 100%;
+}
+.success {
+  color: var(--brand);
+  font-size: 0.9rem;
+  display: flex;
+  width: 100%;
+}
+.helper {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.carousel-track {
+  display: flex;
+  transition: transform 0.4s ease;
+}
+.carousel img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+.carousel-controls {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 8px;
+}
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border: 1px solid #374151;
+  border-radius: 999px;
+  font-size: 12px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table th,
+.table td {
+  padding: 10px;
+  border-bottom: 1px solid #1f2937;
+  text-align: left;
+}
+.table th {
+  color: var(--muted);
+  font-weight: 600;
+}
+.pagination {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+.input_container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-height: fit-content;
+}
+
+.input_container {
+  background-color: transparent;
+}
+
+input,
+textarea,
+select {
+  outline: none;
+}
+
+.input_container input,
+.input_container select {
+  background-color: var(--bg);
+  border-radius: 30px;
+  padding-left: 20px !important;
+  width: 100%;
+  max-width: 300px;
+}
+.password_input_container {
+  display: flex;
+  border: 1px solid #1f2937;
+  border-radius: 30px;
+  min-width: fit-content;
+  max-height: fit-content;
+  align-items: center;
+  background-color: var(--bg);
+  padding-right: 10px;
+}
+
+.input_error input {
+  border-color: red;
+}
+
+.btn_disabled, .btn_disabled:hover {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.password_input_container input {
+  border: none;
+  width: 200px;
+}
+
+.btn {
+  border-radius: 30px;
+  padding-inline: 50px;
+  margin-block: 20px;
+  background-color: var(--brand);
+}
+
+.password_input_container button {
+  border: none;
+  align-items: center;
+  background-color: transparent;
+}
+
+.password_input_container button svg {
+  width: 100%;
+}
+
+h1,
+h2 {
+  margin-block: 0 20px;
+}
+
+.password_input_container input {
+  background-color: transparent;
+}
+
+.login_or_register_container {
+  display: flex;
+  width: 100%;
+}
+
+.redirect_to_reg_or_login {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+}
+
+.redirect_to_reg_or_login a {
+  text-decoration: underline;
+}
+
+a:hover,
+button:hover {
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+textarea {
+  display: flex;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+  max-height: fit-content;
+  align-items: center;
+  background-color: var(--bg);
+  padding-right: 10px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu;
+  padding-inline: 20px;
+  padding-block: 10px;
+  min-height: 150px;
+  resize: none;
+  color: var(--light);
+  font-size: 1rem;
+  width: 100%;
+  max-width: 300px;
+}
+
+.dashboard_first_container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.x_images_out_of_y {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.carousel_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.table_container {
+  overflow-x: auto;
+}
+
+.username_container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.greeting_and_user_name {
+  display: flex;
+  align-items: center;
+  padding-inline: 15px;
+  height: 40px;
+  border-style: dotted;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.logout {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: var(--danger);
+  color: var(--light);
+  border-radius: 30px;
+  padding-inline: 20px;
+}
+
+@media (max-width: 640px) {
+  .nav {
+    flex-direction: column;
+    gap: 8px;
+    align-items: stretch;
+  }
+  .carousel img {
+    height: 140px;
+  }
+}
