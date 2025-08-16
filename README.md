@@ -1,12 +1,55 @@
-# React + Vite
+# 💸Send Pocket Money – Frontend (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **React.js frontend** of the Money Transfer application.  
+It provides a UI for users to send money, view transaction history, and calculate fees and exchange rates.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Send money to recipients (GBP / ZAR).
+- Real-time FX rate fetching.
+- Fee calculation (10% for GBP, 20% for ZAR).
+- Validation for minimum ($5) and maximum ($2000) amounts.
+- Transaction history with pagination.
+- Accessible and responsive design.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- React (with Hooks, useState/useEffect/useMemo).
+- Axios (API communication).
+- FontAwesome (icons).
+- CSS for styling.
+
+---
+
+## 🔗 Backend Dependency
+The frontend depends on a **Node.js + Express + MongoDB backend** to:
+- Provide live FX rates (`/rates`).
+- Handle transactions (`/transactions`).
+- Store transaction history.
+
+Make sure the backend server is running before starting the frontend.
+
+---
+
+## 📦 Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-org/money-transfer-frontend.git
+   cd money-transfer-frontend
+
+2. Install dependencies:
+   npm install
+3. Start the development server:
+   npm start
+The app will run on http://localhost:3000
+
+⚙️ Configuration
+Update src/api.js with your backend API base URL:
+const BASE_URL = "http://localhost:4000/api"; // Backend server URL
+
+🧪 Testing
+npm test
+
