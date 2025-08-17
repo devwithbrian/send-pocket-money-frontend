@@ -11,6 +11,7 @@ It provides a UI for users to send money, view transaction history, and calculat
 - Fee calculation (10% for GBP, 20% for ZAR).
 - Validation for minimum ($5) and maximum ($2000) amounts.
 - Transaction history with pagination.
+- Ads section where an advert carousel resides.
 - Accessible and responsive design.
 
 ---
