@@ -1,6 +1,6 @@
 # 💸Send Pocket Money – Frontend (React + Vite)
 
-This is the **React.js frontend** of the Money Transfer application.  
+This is the **React.js frontend** of the Send Pocket Money application.  
 It provides a UI for users to send money, view transaction history, and calculate fees and exchange rates.
 
 ---
@@ -24,7 +24,7 @@ It provides a UI for users to send money, view transaction history, and calculat
 ---
 
 ## 🔗 Backend Dependency
-The frontend depends on a **Node.js + Express + MongoDB backend** to:
+The frontend depends on a Node.js + Express + MongoDB backend to:
 - Provide live FX rates (`/rates`).
 - Handle transactions (`/transactions`).
 - Store transaction history.
@@ -36,7 +36,6 @@ Make sure the backend server is running before starting the frontend.
 ## 📦 Installation
 
 1. Clone the repository:
-   ```bash
    git clone https://github.com/your-org/money-transfer-frontend.git
    cd money-transfer-frontend
 
