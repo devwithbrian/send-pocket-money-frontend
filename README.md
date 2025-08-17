@@ -17,7 +17,7 @@ It provides a UI for users to send money, view transaction history, and calculat
 
 ## 🛠️ Tech Stack
 - React (with Hooks, useState/useEffect/useMemo).
-- Axios (API communication).
+- Fetch API (API communication).
 - FontAwesome (icons).
 - CSS for styling.
 
