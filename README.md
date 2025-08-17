@@ -35,7 +35,7 @@ The frontend depends on a Node.js + Express + MongoDB backend to:
 - Login registered users (`/api/auth/login`).
 - Logout logged in users (`/api/auth/logout`).
 - Fetch and set CSRF Token Cookie (`/api/auth/csrf`).
-- Fetch currently logged in user's info (`/api/auth/me`)
+- Fetch currently logged in user's info (`/api/auth/me`).
 
 - Store transaction history.
 
