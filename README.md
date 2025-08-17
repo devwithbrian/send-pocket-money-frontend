@@ -6,6 +6,7 @@ It provides a UI for users to send money, view transaction history, and calculat
 ---
 
 ## 🚀 Features
+
 - Send money to recipients (GBP / ZAR).
 - Real-time FX rate fetching.
 - Fee calculation (10% for GBP, 20% for ZAR).
@@ -17,6 +18,7 @@ It provides a UI for users to send money, view transaction history, and calculat
 ---
 
 ## 🛠️ Tech Stack
+
 - React (with Hooks, useState/useEffect/useMemo).
 - Fetch API (API communication).
 - FontAwesome (icons).
@@ -25,6 +27,7 @@ It provides a UI for users to send money, view transaction history, and calculat
 ---
 
 ## 🔗 Backend Dependency
+
 The frontend depends on a Node.js + Express + MongoDB backend to:
 - Provide live FX rates (`/rates`).
 - Handle transactions (`/transactions`).
@@ -48,10 +51,13 @@ Make sure the backend server is running before starting the frontend.
 3. Start the development server:
    ```bash
    npm start
+
 The app will run on http://localhost:3000
 
 ⚙️ Configuration
+
 Update src/api.js with your backend API base URL:
+
 const BASE_URL = "http://localhost:4000/api"; // Backend server URL
 
 🧪 Testing
