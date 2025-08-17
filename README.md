@@ -38,12 +38,15 @@ Make sure the backend server is running before starting the frontend.
 ## 📦 Installation
 
 1. Clone the repository:
+```bash
    git clone https://github.com/devwithbrian/send-pocket-money-frontend.git
    cd send-pocket-money-frontend
 
 2. Install dependencies:
+```bash
    npm install
 3. Start the development server:
+```bash
    npm start
 The app will run on http://localhost:3000
 
@@ -52,5 +55,6 @@ Update src/api.js with your backend API base URL:
 const BASE_URL = "http://localhost:4000/api"; // Backend server URL
 
 🧪 Testing
+```bash
 npm test
 
