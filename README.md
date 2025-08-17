@@ -1,7 +1,7 @@
 # 💸Send Pocket Money – Frontend (React + Vite)
 
 This is the **React.js frontend** of the Send Pocket Money application.  
-It provides a UI for users to send money, view transaction history, and calculate fees and exchange rates. Adverts are also shown on an add carousel.
+It provides a UI for users to register,send money, view transaction history, and calculate fees and exchange rates. Adverts are also shown on an add carousel.
 
 ---
 
