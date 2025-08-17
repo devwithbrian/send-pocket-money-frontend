@@ -65,7 +65,7 @@ The app will run on http://localhost:3000
 
 Update `src/api.js` with your backend API base URL:
 
-const BASE_URL = "http://localhost:4000/api"; // Backend server URL
+`const BASE_URL = "http://localhost:4000/api"; // Backend server URL`
 
 🧪 Testing
 ```bash
