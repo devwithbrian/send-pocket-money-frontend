@@ -29,13 +29,13 @@ It provides a UI for users to send money, view transaction history, and calculat
 ## 🔗 Backend Dependency
 
 The frontend depends on a Node.js + Express + MongoDB backend to:
-- Provide live FX rates (`/rates`).
-- Handle transactions (`/transactions`).
-- Register and store registered user data (`/auth/register`).
-- Login registered users (`/auth/login`).
-- Logout logged in users (`/auth/logout`).
-- Fetch and set CSRF Token Cookie (`/auth/csrf`).
-- Fetch currently logged in user's info (`/auth/me`)
+- Provide live FX rates (`/api/rates`).
+- Handle transactions (`/api/transactions`).
+- Register and store registered user data (`/api/auth/register`).
+- Login registered users (`/api/auth/login`).
+- Logout logged in users (`/api/auth/logout`).
+- Fetch and set CSRF Token Cookie (`/api/auth/csrf`).
+- Fetch currently logged in user's info (`/api/auth/me`)
 
 - Store transaction history.
 
