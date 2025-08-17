@@ -23,7 +23,7 @@ It provides a UI for users to register,send money, view transaction history, and
 
 - React (with Hooks, useState/useEffect/useMemo).
 - Fetch API (API communication).
-- FontAwesome (icons).
+- FontAwesome SVG icons.
 - CSS for styling.
 
 ---
