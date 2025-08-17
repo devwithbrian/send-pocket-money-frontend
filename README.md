@@ -31,7 +31,12 @@ It provides a UI for users to send money, view transaction history, and calculat
 The frontend depends on a Node.js + Express + MongoDB backend to:
 - Provide live FX rates (`/rates`).
 - Handle transactions (`/transactions`).
-- Store registered user data.
+- Register and store registered user data (`/auth/register`).
+- Login registered users (`/auth/login`).
+- Logout logged in users (`/auth/logout`).
+- Fetch and set CSRF Token Cookie (`/auth/csrf`).
+- Fetch currently logged in user's info (`/auth/me`)
+
 - Store transaction history.
 
 Make sure the backend server is running before starting the frontend.
