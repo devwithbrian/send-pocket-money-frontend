@@ -7,6 +7,7 @@ It provides a UI for users to send money, view transaction history, and calculat
 
 ## 🚀 Features
 
+- Register and login users.
 - Send money to recipients (GBP / ZAR).
 - Real-time FX rate fetching.
 - Fee calculation (10% for GBP, 20% for ZAR).
