@@ -63,7 +63,7 @@ The app will run on http://localhost:3000
 
 ⚙️ Configuration
 
-Update src/api.js with your backend API base URL:
+Update `src/api.js` with your backend API base URL:
 
 const BASE_URL = "http://localhost:4000/api"; // Backend server URL
 
