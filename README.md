@@ -7,7 +7,8 @@ It provides a UI for users to send money, view transaction history, and calculat
 
 ## 🚀 Features
 
-- Register and login users.
+- Register users.
+- Securely login and logout users via JWT and CSRF cookie.
 - Send money to recipients (GBP / ZAR).
 - Real-time FX rate fetching.
 - Fee calculation (10% for GBP, 20% for ZAR).
