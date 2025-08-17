@@ -39,7 +39,7 @@ Make sure the backend server is running before starting the frontend.
 
 1. Clone the repository:
    git clone https://github.com/devwithbrian/send-pocket-money-frontend.git
-   cd money-transfer-frontend
+   cd send-pocket-money-frontend
 
 2. Install dependencies:
    npm install
