@@ -59,7 +59,7 @@ Make sure the backend server is running before starting the frontend.
    ```bash
    npm start
 
-The app will run on http://localhost:3000
+The app will run on `http://localhost:3000`
 
 ⚙️ Configuration
 
